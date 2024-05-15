@@ -17,11 +17,10 @@ export default function Anasayfa({ navigation }) {
         </Text>
       </View>
       <TouchableOpacity
-        onPress={() => navigation.navigate('TodoList')}
-        style={{ backgroundColor: 'lightblue', borderRadius: 1 , marginTop: 5 }}
-      >
+        onPress={() => navigation.navigate('HavaDurumu')}
+        style={{ backgroundColor: 'lightblue', borderRadius: 1 , marginTop: 5 }}>
         <Text style={{ fontSize: 24, fontWeight: 'bold', padding: 10, textAlign: 'center' }}>
-          Todo List
+          Hava Durumu
         </Text>
       </TouchableOpacity>
     </View>
